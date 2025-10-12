@@ -2,7 +2,7 @@
 
 Frontend desenvolvido por **Willian Cavalcanti Coelho** para o projeto final.
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - React
 - TypeScript
@@ -12,18 +12,24 @@ Frontend desenvolvido por **Willian Cavalcanti Coelho** para o projeto final.
 - Better Auth (autenticação)
 - React Router DOM
 
-## 📦 Instalação
+## Instalação
 
 ```bash
-npm install
+bun install
 ```
 
-## 🏃 Executar
+## Testes
+
+```bash
+bun run test
+```
+
+## Executar
 
 ### Desenvolvimento
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 O frontend estará disponível em `http://localhost:5173`
@@ -31,11 +37,11 @@ O frontend estará disponível em `http://localhost:5173`
 ### Produção
 
 ```bash
-npm run build
-npm run preview
+bun run build
+bun run preview
 ```
 
-## 🎨 Estrutura
+## Estrutura
 
 ```
 src/
@@ -52,7 +58,7 @@ src/
 └── main.tsx         # Ponto de entrada
 ```
 
-## 🔐 Autenticação
+## Autenticação
 
 O frontend se comunica com o backend através do Better Auth Client. As rotas protegidas só são acessíveis após login.
 
@@ -63,12 +69,12 @@ O frontend se comunica com o backend através do Better Auth Client. As rotas pr
 3. Session é validada nas rotas protegidas
 4. Usuário pode acessar o Dashboard
 
-## 🎨 Personalização
+## Personalização
 
 Os componentes UI são baseados no shadcn/ui e podem ser customizados através do Tailwind CSS.
 
 Para modificar o tema, edite o arquivo `src/index.css`.
 
-## 👨‍💻 Autor
+## Autor
 
 Willian Cavalcanti Coelho
